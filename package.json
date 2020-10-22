@@ -1,0 +1,24 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "description": "Interview questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-watch spec/run.js .",
+    "build": "node_modules/@babel/cli/bin/babel.js -s --out-dir dist ./src",
+    "prebuild": "rm -rf dist"
+  },
+  "author": "Vadim Rommer",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-watch": "^7.0.0",
+    "jasmine": "^3.6.2"
+  },
+  "dependencies": {
+    "@babel/node": "^7.12.1",
+    "@babel/polyfill": "^7.12.1"
+  }
+}
