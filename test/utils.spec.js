@@ -1,7 +1,7 @@
 import { isFillBag } from '../src/utils'
 
 describe("Test all functions in utils", () => {
-    describe("isFeelBag", () => {
+    describe("isFillBag", () => {
         const numbers = [1, 3, 7, 12, 26]
         it("Array contains a sub group of 2 numbers that sums to a number", () => {
             const number = 10
@@ -21,5 +21,5 @@ describe("Test all functions in utils", () => {
         })
     })
 });
-  
+
   
